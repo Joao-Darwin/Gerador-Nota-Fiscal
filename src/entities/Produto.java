@@ -50,4 +50,8 @@ public class Produto {
 		this.categoria = categoria;
 	}
 	
+	public double valorTotal () {
+		return getValor() * getQuantidade();
+	}
+	
 }
