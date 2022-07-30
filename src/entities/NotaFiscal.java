@@ -9,7 +9,7 @@ public class NotaFiscal {
 	private Integer numeroNota;
 	private Date data;
 	
-	private List<Produto> produtos = new ArrayList<E>();
+	private List<Produto> produtos = new ArrayList<>();
 	private Pagamento pagamento;
 	
 	public NotaFiscal () {
