@@ -15,7 +15,7 @@ public class NotaFiscal {
 	public NotaFiscal () {
 	}
 	
-	public NotaFiscal (Integer numeroNota, Date data, Pagamento pagamento) {
+	public NotaFiscal (int numeroNota, Date data, Pagamento pagamento) {
 		this.numeroNota = numeroNota;
 		this.data = data;
 		this.pagamento = pagamento;
@@ -53,5 +53,8 @@ public class NotaFiscal {
 		this.pagamento = pagamento;
 	}
 	
-	
+	@Override 
+	public String toString() {
+		
+	}
 }
